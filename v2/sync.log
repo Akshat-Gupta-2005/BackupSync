@@ -1,0 +1,65 @@
+2026-05-14 23:58:40 [ERROR] Folder A does not exist: /folderA
+2026-05-14 23:59:56 [INFO] Syncing: 'D:/CODING/New Projects/9_backupSync/v2/folderA'  ↔  'D:/CODING/New Projects/9_backupSync/v2/folderB'
+2026-05-14 23:59:56 [INFO] Files to evaluate: 2  |  First run: True
+2026-05-14 23:59:56 [INFO]   CREATE  A → B        file1.txt
+2026-05-14 23:59:56 [INFO]   CREATE  A → B        file2.txt
+2026-05-15 00:00:12 [INFO] Syncing: 'D:/CODING/New Projects/9_backupSync/v2/folderA'  ↔  'D:/CODING/New Projects/9_backupSync/v2/folderB'
+2026-05-15 00:00:12 [INFO] Files to evaluate: 2  |  First run: False
+2026-05-15 00:00:12 [INFO]   DELETE  from A       file2.txt
+2026-05-15 00:01:27 [INFO] Syncing: 'D:/CODING/New Projects/9_backupSync/v2/folderA'  ↔  'D:/CODING/New Projects/9_backupSync/v2/folderB'
+2026-05-15 00:01:27 [INFO] Files to evaluate: 2  |  First run: False
+2026-05-15 00:01:27 [INFO]   UPDATE  B → A        file2.txt
+2026-05-15 00:01:57 [INFO] Syncing: 'D:/CODING/New Projects/9_backupSync/v2/folderA'  ↔  'D:/CODING/New Projects/9_backupSync/v2/folderB'
+2026-05-15 00:01:57 [INFO] Files to evaluate: 2  |  First run: False
+2026-05-15 00:01:57 [INFO]   DELETE  from B       file1.txt
+2026-05-15 00:02:11 [INFO] Syncing: 'D:/CODING/New Projects/9_backupSync/v2/folderA'  ↔  'D:/CODING/New Projects/9_backupSync/v2/folderB'
+2026-05-15 00:02:11 [INFO] Files to evaluate: 1  |  First run: False
+2026-05-15 00:02:11 [INFO]   DELETE  from A       file2.txt
+2026-05-15 00:02:31 [INFO] Syncing: 'D:/CODING/New Projects/9_backupSync/v2/folderA'  ↔  'D:/CODING/New Projects/9_backupSync/v2/folderB'
+2026-05-15 00:02:31 [INFO] Files to evaluate: 0  |  First run: False
+
+┌──────────────────────────────────────────────────────────────────────┐
+│  FOLDERSYNC SESSION  ·  2026-05-15  00:11:20                         │
+├──────────────────────────────────────────────────────────────────────┤
+│  A  →  D:/CODING/New Projects/9_backupSync/v2/folderA                │
+│  B  →  D:/CODING/New Projects/9_backupSync/v2/folderB                │
+└──────────────────────────────────────────────────────────────────────┘
+  00:11:20  INFO      Files evaluated                             scanning...
+  00:11:20  INFO      Files evaluated                             0 files  |  first_run=False
+  00:11:20  DEBUG     State saved to sync_state.json
+  ──────────────────────────────────────────────────────────────────────
+  RESULT        Created=0  Updated=0  Deleted=0  Conflicts=0  Skipped=0  Errors=0
+  ELAPSED       0.009s
+  ──────────────────────────────────────────────────────────────────────
+
+
+┌──────────────────────────────────────────────────────────────────────┐
+│  FOLDERSYNC SESSION  ·  2026-05-15  00:11:36                         │
+├──────────────────────────────────────────────────────────────────────┤
+│  A  →  D:/CODING/New Projects/9_backupSync/v2/folderA                │
+│  B  →  D:/CODING/New Projects/9_backupSync/v2/folderB                │
+└──────────────────────────────────────────────────────────────────────┘
+  00:11:36  INFO      Files evaluated                             scanning...
+  00:11:36  INFO      Files evaluated                             0 files  |  first_run=False
+  00:11:36  DEBUG     State saved to sync_state.json
+  ──────────────────────────────────────────────────────────────────────
+  RESULT        Created=0  Updated=0  Deleted=0  Conflicts=0  Skipped=0  Errors=0
+  ELAPSED       0.008s
+  ──────────────────────────────────────────────────────────────────────
+
+
+┌──────────────────────────────────────────────────────────────────────┐
+│  FOLDERSYNC SESSION  ·  2026-05-15  00:12:19                         │
+├──────────────────────────────────────────────────────────────────────┤
+│  A  →  D:/CODING/New Projects/9_backupSync/v2/folderA                │
+│  B  →  D:/CODING/New Projects/9_backupSync/v2/folderB                │
+└──────────────────────────────────────────────────────────────────────┘
+  00:12:19  INFO      Files evaluated                             scanning...
+  00:12:19  INFO      Files evaluated                             1 files  |  first_run=False
+  00:12:19  INFO      CREATE    chal.txt                                    A → B
+  00:12:19  DEBUG     State saved to sync_state.json
+  ──────────────────────────────────────────────────────────────────────
+  RESULT        Created=1  Updated=0  Deleted=0  Conflicts=0  Skipped=0  Errors=0
+  ELAPSED       0.009s
+  ──────────────────────────────────────────────────────────────────────
+
