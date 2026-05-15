@@ -1,0 +1,15 @@
+
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│  FOLDERSYNC v4 SESSION  ·  2026-05-15  13:32:32                                        │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│  SOURCE    →  D:/CODING/New Projects/9_backupSync/v5/folderC                           │
+│  DESTINATION→  D:/CODING/New Projects/9_backupSync/v5/folderD                          │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+  13:32:32  INFO      Executing                                     1 planned operations
+  13:32:32  INFO      CREATE    New XLSX Worksheet.xlsx                       from source  →  copying to [destination]
+  13:32:32  DEBUG     State saved to sync_state_folderC_folderD.json
+  ────────────────────────────────────────────────────────────────────────────────────────
+  RESULT        Created=1  Updated=0  Deleted=0  Conflicts=0  Skipped=0  Errors=0
+  ELAPSED       0.002s
+  ────────────────────────────────────────────────────────────────────────────────────────
+

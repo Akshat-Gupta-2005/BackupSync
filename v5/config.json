@@ -1,0 +1,12 @@
+{
+  "pairs": [
+    {
+      "source":      "D:/CODING/New Projects/9_backupSync/v5/folderA",
+      "destination": "D:/CODING/New Projects/9_backupSync/v5/folderB"
+    },
+    {
+      "source":      "D:/CODING/New Projects/9_backupSync/v5/folderC",
+      "destination": "D:/CODING/New Projects/9_backupSync/v5/folderD"
+    }
+  ]
+}

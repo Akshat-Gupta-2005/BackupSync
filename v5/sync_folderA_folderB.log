@@ -1,0 +1,60 @@
+
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│  FOLDERSYNC v4 SESSION  ·  2026-05-15  13:32:28                                        │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│  SOURCE    →  D:/CODING/New Projects/9_backupSync/v5/folderA                           │
+│  DESTINATION→  D:/CODING/New Projects/9_backupSync/v5/folderB                          │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+  13:32:28  INFO      Executing                                     1 planned operations
+  13:32:28  INFO      CREATE    New Text Document.txt                         from source  →  copying to [destination]
+  13:32:28  DEBUG     State saved to sync_state_folderA_folderB.json
+  ────────────────────────────────────────────────────────────────────────────────────────
+  RESULT        Created=1  Updated=0  Deleted=0  Conflicts=0  Skipped=0  Errors=0
+  ELAPSED       0.004s
+  ────────────────────────────────────────────────────────────────────────────────────────
+
+
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│  FOLDERSYNC v4 SESSION  ·  2026-05-15  13:34:10                                        │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│  SOURCE    →  D:/CODING/New Projects/9_backupSync/v5/folderA                           │
+│  DESTINATION→  D:/CODING/New Projects/9_backupSync/v5/folderB                          │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+  13:34:10  INFO      Executing                                     1 planned operations
+  13:34:10  INFO      DELETE    New Text Document.txt                         deleted from [destination]  →  purging from [source]
+  13:34:10  DEBUG     State saved to sync_state_folderA_folderB.json
+  ────────────────────────────────────────────────────────────────────────────────────────
+  RESULT        Created=0  Updated=0  Deleted=1  Conflicts=0  Skipped=0  Errors=0
+  ELAPSED       0.003s
+  ────────────────────────────────────────────────────────────────────────────────────────
+
+
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│  FOLDERSYNC v4 SESSION  ·  2026-05-15  13:37:41                                        │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│  SOURCE    →  D:/CODING/New Projects/9_backupSync/v5/folderA                           │
+│  DESTINATION→  D:/CODING/New Projects/9_backupSync/v5/folderB                          │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+  13:37:41  INFO      Executing                                     1 planned operations
+  13:37:41  INFO      CREATE    New Text Document.txt                         from source  →  copying to [destination]
+  13:37:41  DEBUG     State saved to sync_state_folderA_folderB.json
+  ────────────────────────────────────────────────────────────────────────────────────────
+  RESULT        Created=1  Updated=0  Deleted=0  Conflicts=0  Skipped=0  Errors=0
+  ELAPSED       0.003s
+  ────────────────────────────────────────────────────────────────────────────────────────
+
+
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│  FOLDERSYNC v4 SESSION  ·  2026-05-15  13:38:16                                        │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│  SOURCE    →  D:/CODING/New Projects/9_backupSync/v5/folderA                           │
+│  DESTINATION→  D:/CODING/New Projects/9_backupSync/v5/folderB                          │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+  13:38:16  INFO      Executing                                     1 planned operations
+  13:38:16  WARNING   CONFLICT  New Text Document.txt                         [CONFLICT]  destination wins  →  updating [source]
+  13:38:16  DEBUG     State saved to sync_state_folderA_folderB.json
+  ────────────────────────────────────────────────────────────────────────────────────────
+  RESULT        Created=0  Updated=0  Deleted=0  Conflicts=1  Skipped=0  Errors=0
+  ELAPSED       0.003s
+  ────────────────────────────────────────────────────────────────────────────────────────
+
