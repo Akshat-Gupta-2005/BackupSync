@@ -63,3 +63,51 @@
   ELAPSED       0.009s
   ──────────────────────────────────────────────────────────────────────
 
+
+┌──────────────────────────────────────────────────────────────────────┐
+│  FOLDERSYNC SESSION  ·  2026-05-15  11:29:48                         │
+├──────────────────────────────────────────────────────────────────────┤
+│  A  →  D:/CODING/New Projects/9_backupSync/v2/folderA                │
+│  B  →  D:/CODING/New Projects/9_backupSync/v2/folderB                │
+└──────────────────────────────────────────────────────────────────────┘
+  11:29:48  INFO      Files evaluated                             scanning...
+  11:29:48  INFO      Files evaluated                             1 files  |  first_run=False
+  11:29:48  INFO      DELETE    chal.txt                                    removed from A  →  purged from B
+  11:29:48  DEBUG     State saved to sync_state.json
+  ──────────────────────────────────────────────────────────────────────
+  RESULT        Created=0  Updated=0  Deleted=1  Conflicts=0  Skipped=0  Errors=0
+  ELAPSED       0.006s
+  ──────────────────────────────────────────────────────────────────────
+
+
+┌──────────────────────────────────────────────────────────────────────┐
+│  FOLDERSYNC SESSION  ·  2026-05-15  11:31:11                         │
+├──────────────────────────────────────────────────────────────────────┤
+│  A  →  D:/CODING/New Projects/9_backupSync/v2/folderA                │
+│  B  →  D:/CODING/New Projects/9_backupSync/v2/folderB                │
+└──────────────────────────────────────────────────────────────────────┘
+  11:31:11  INFO      Files evaluated                             scanning...
+  11:31:11  INFO      Files evaluated                             1 files  |  first_run=False
+  11:31:11  INFO      CREATE    file1.xlsx                                  A → B
+  11:31:11  DEBUG     State saved to sync_state.json
+  ──────────────────────────────────────────────────────────────────────
+  RESULT        Created=1  Updated=0  Deleted=0  Conflicts=0  Skipped=0  Errors=0
+  ELAPSED       0.006s
+  ──────────────────────────────────────────────────────────────────────
+
+
+┌──────────────────────────────────────────────────────────────────────┐
+│  FOLDERSYNC SESSION  ·  2026-05-15  11:31:43                         │
+├──────────────────────────────────────────────────────────────────────┤
+│  A  →  D:/CODING/New Projects/9_backupSync/v2/folderA                │
+│  B  →  D:/CODING/New Projects/9_backupSync/v2/folderB                │
+└──────────────────────────────────────────────────────────────────────┘
+  11:31:43  INFO      Files evaluated                             scanning...
+  11:31:43  INFO      Files evaluated                             1 files  |  first_run=False
+  11:31:43  INFO      UPDATE    file1.xlsx                                  B → A
+  11:31:43  DEBUG     State saved to sync_state.json
+  ──────────────────────────────────────────────────────────────────────
+  RESULT        Created=0  Updated=1  Deleted=0  Conflicts=0  Skipped=0  Errors=0
+  ELAPSED       0.017s
+  ──────────────────────────────────────────────────────────────────────
+

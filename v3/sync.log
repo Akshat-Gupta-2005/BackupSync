@@ -1,0 +1,63 @@
+  12:13:21  INFO      Loaded 3 folders from config.json
+  12:13:21  INFO        folder_a     →  D:/CODING/New Projects/9_backupSync/v3/folderA
+  12:13:21  INFO        folder_b     →  D:/CODING/New Projects/9_backupSync/v3/folderB
+  12:13:21  INFO        folder_c     →  D:/CODING/New Projects/9_backupSync/v3/folderC
+
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│  FOLDERSYNC v3 SESSION  ·  2026-05-15  12:13:21                                        │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│  FOLDER_A  →  D:/CODING/New Projects/9_backupSync/v3/folderA                           │
+│  FOLDER_B  →  D:/CODING/New Projects/9_backupSync/v3/folderB                           │
+│  FOLDER_C  →  D:/CODING/New Projects/9_backupSync/v3/folderC                           │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+  12:13:21  INFO      Folders                                       3 (folder_a, folder_b, folder_c)
+  12:13:21  INFO      Files to evaluate                             1  |  first_run=True
+  12:13:21  INFO      CREATE    file1.txt                                     from folder_a  →  copying to [folder_b, folder_c]
+  12:13:21  DEBUG     State saved to sync_state.json
+  ────────────────────────────────────────────────────────────────────────────────────────
+  RESULT        Created=1  Updated=0  Deleted=0  Conflicts=0  Skipped=0  Errors=0
+  ELAPSED       0.006s
+  ────────────────────────────────────────────────────────────────────────────────────────
+
+  12:14:07  INFO      Loaded 3 folders from config.json
+  12:14:07  INFO        folder_a     →  D:/CODING/New Projects/9_backupSync/v3/folderA
+  12:14:07  INFO        folder_b     →  D:/CODING/New Projects/9_backupSync/v3/folderB
+  12:14:07  INFO        folder_c     →  D:/CODING/New Projects/9_backupSync/v3/folderC
+
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│  FOLDERSYNC v3 SESSION  ·  2026-05-15  12:14:07                                        │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│  FOLDER_A  →  D:/CODING/New Projects/9_backupSync/v3/folderA                           │
+│  FOLDER_B  →  D:/CODING/New Projects/9_backupSync/v3/folderB                           │
+│  FOLDER_C  →  D:/CODING/New Projects/9_backupSync/v3/folderC                           │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+  12:14:07  INFO      Folders                                       3 (folder_a, folder_b, folder_c)
+  12:14:07  INFO      Files to evaluate                             1  |  first_run=False
+  12:14:07  WARNING   CONFLICT  file1.txt                                     [CONFLICT]  folder_c wins  →  updating [folder_a, folder_b]
+  12:14:07  DEBUG     State saved to sync_state.json
+  ────────────────────────────────────────────────────────────────────────────────────────
+  RESULT        Created=0  Updated=0  Deleted=0  Conflicts=1  Skipped=0  Errors=0
+  ELAPSED       0.013s
+  ────────────────────────────────────────────────────────────────────────────────────────
+
+  12:14:30  INFO      Loaded 3 folders from config.json
+  12:14:30  INFO        folder_a     →  D:/CODING/New Projects/9_backupSync/v3/folderA
+  12:14:30  INFO        folder_b     →  D:/CODING/New Projects/9_backupSync/v3/folderB
+  12:14:30  INFO        folder_c     →  D:/CODING/New Projects/9_backupSync/v3/folderC
+
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│  FOLDERSYNC v3 SESSION  ·  2026-05-15  12:14:30                                        │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│  FOLDER_A  →  D:/CODING/New Projects/9_backupSync/v3/folderA                           │
+│  FOLDER_B  →  D:/CODING/New Projects/9_backupSync/v3/folderB                           │
+│  FOLDER_C  →  D:/CODING/New Projects/9_backupSync/v3/folderC                           │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+  12:14:30  INFO      Folders                                       3 (folder_a, folder_b, folder_c)
+  12:14:30  INFO      Files to evaluate                             1  |  first_run=False
+  12:14:30  INFO      DELETE    file1.txt                                     deleted from [folder_b, folder_c]  →  purging from [folder_a]
+  12:14:30  DEBUG     State saved to sync_state.json
+  ────────────────────────────────────────────────────────────────────────────────────────
+  RESULT        Created=0  Updated=0  Deleted=1  Conflicts=0  Skipped=0  Errors=0
+  ELAPSED       0.009s
+  ────────────────────────────────────────────────────────────────────────────────────────
+
