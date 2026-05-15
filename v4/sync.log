@@ -1,0 +1,79 @@
+
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│  FOLDERSYNC v4 SESSION  ·  2026-05-15  12:37:23                                        │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│  FOLDER_A  →  D:/CODING/New Projects/9_backupSync/v4/folderA                           │
+│  FOLDER_B  →  D:/CODING/New Projects/9_backupSync/v4/folderB                           │
+│  FOLDER_C  →  D:/CODING/New Projects/9_backupSync/v4/folderC                           │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+  12:37:23  INFO      Executing                                     1 planned operations
+  12:37:23  INFO      CREATE    file1.txt                                     from folder_a  →  copying to [folder_b, folder_c]
+  12:37:23  DEBUG     State saved to sync_state.json
+  ────────────────────────────────────────────────────────────────────────────────────────
+  RESULT        Created=1  Updated=0  Deleted=0  Conflicts=0  Skipped=0  Errors=0
+  ELAPSED       0.003s
+  ────────────────────────────────────────────────────────────────────────────────────────
+
+
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│  FOLDERSYNC v4 SESSION  ·  2026-05-15  12:38:20                                        │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│  FOLDER_A  →  D:/CODING/New Projects/9_backupSync/v4/folderA                           │
+│  FOLDER_B  →  D:/CODING/New Projects/9_backupSync/v4/folderB                           │
+│  FOLDER_C  →  D:/CODING/New Projects/9_backupSync/v4/folderC                           │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+  12:38:20  INFO      Executing                                     1 planned operations
+  12:38:20  WARNING   CONFLICT  file1.txt                                     [CONFLICT]  folder_c wins  →  updating [folder_a, folder_b]
+  12:38:20  DEBUG     State saved to sync_state.json
+  ────────────────────────────────────────────────────────────────────────────────────────
+  RESULT        Created=0  Updated=0  Deleted=0  Conflicts=1  Skipped=0  Errors=0
+  ELAPSED       0.004s
+  ────────────────────────────────────────────────────────────────────────────────────────
+
+
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│  FOLDERSYNC v4 SESSION  ·  2026-05-15  13:15:48                                        │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│  FOLDER_A  →  D:/CODING/New Projects/9_backupSync/v4/folderA                           │
+│  FOLDER_B  →  D:/CODING/New Projects/9_backupSync/v4/folderB                           │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+  13:15:48  INFO      Executing                                     1 planned operations
+  13:15:48  INFO      UPDATE    file1.txt                                     folder_a wins  →  updating [folder_b]
+  13:15:48  DEBUG     State saved to sync_state.json
+  ────────────────────────────────────────────────────────────────────────────────────────
+  RESULT        Created=0  Updated=1  Deleted=0  Conflicts=0  Skipped=0  Errors=0
+  ELAPSED       0.004s
+  ────────────────────────────────────────────────────────────────────────────────────────
+
+
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│  FOLDERSYNC v4 SESSION  ·  2026-05-15  13:17:00                                        │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│  FOLDER_C  →  D:/CODING/New Projects/9_backupSync/v4/folderC                           │
+│  FOLDER_D  →  D:/CODING/New Projects/9_backupSync/v4/folderD                           │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+  13:17:00  INFO      Executing                                     1 planned operations
+  13:17:00  INFO      CREATE    New Text Document.txt                         from folder_c  →  copying to [folder_d]
+  13:17:00  DEBUG     SKIP      file1.txt                                     gone from all folders
+  13:17:00  DEBUG     State saved to sync_state.json
+  ────────────────────────────────────────────────────────────────────────────────────────
+  RESULT        Created=1  Updated=0  Deleted=0  Conflicts=0  Skipped=1  Errors=0
+  ELAPSED       0.003s
+  ────────────────────────────────────────────────────────────────────────────────────────
+
+
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│  FOLDERSYNC v4 SESSION  ·  2026-05-15  13:17:50                                        │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│  FOLDER_A  →  D:/CODING/New Projects/9_backupSync/v4/folderA                           │
+│  FOLDER_B  →  D:/CODING/New Projects/9_backupSync/v4/folderB                           │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+  13:17:50  INFO      Executing                                     1 planned operations
+  13:17:50  DEBUG     SKIP      New Text Document.txt                         gone from all folders
+  13:17:50  INFO      CREATE    file1.txt                                     from folder_a  →  copying to [folder_b]
+  13:17:50  DEBUG     State saved to sync_state.json
+  ────────────────────────────────────────────────────────────────────────────────────────
+  RESULT        Created=1  Updated=0  Deleted=0  Conflicts=0  Skipped=1  Errors=0
+  ELAPSED       0.004s
+  ────────────────────────────────────────────────────────────────────────────────────────
+
