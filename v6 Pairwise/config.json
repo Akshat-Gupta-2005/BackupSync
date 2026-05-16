@@ -1,0 +1,19 @@
+{
+  "pairs": [
+    {
+      "name": "Projects",
+      "source": "D:/CODING/New Projects/9_backupSync/v2/folderA",
+      "destination": "D:/CODING/New Projects/9_backupSync/v2/folderB"
+    },
+    {
+      "name": "Pair2",
+      "source": "D:/path/to/source2",
+      "destination": "D:/path/to/destination2"
+    },
+    {
+      "name": "Pair3",
+      "source": "D:/path/to/source3",
+      "destination": "D:/path/to/destination3"
+    }
+  ]
+}
