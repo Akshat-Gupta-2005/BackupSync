@@ -8,7 +8,7 @@ echo ================================
 echo   FolderSync - Two-Way Sync
 echo ================================
 
-python syncv2.py --config config.json
+python syncv6.py --config config.json
 
 if %ERRORLEVEL% NEQ 0 (
     echo.
