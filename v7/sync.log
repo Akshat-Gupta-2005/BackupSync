@@ -1,0 +1,24 @@
+  14:07:53  INFO      ──────────────────────────────────────────────────
+  14:07:53  INFO      Pair: Projects  |  D:/CODING/New Projects/9_backupSync/v7/A  ↔  D:/CODING/New Projects/9_backupSync/v7/B
+  14:07:53  INFO      ──────────────────────────────────────────────────
+  14:07:53  INFO      Pair: Pair2  |  D:/CODING/New Projects/9_backupSync/v7/C  ↔  D:/CODING/New Projects/9_backupSync/v7/D
+  14:08:14  INFO      ──────────────────────────────────────────────────
+  14:08:14  INFO      Pair: Projects  |  D:/CODING/New Projects/9_backupSync/v7/A  ↔  D:/CODING/New Projects/9_backupSync/v7/B
+
+┌──────────────────────────────────────────────────────────────────────┐
+│  FOLDERSYNC SESSION  ·  2026-05-17  14:08:21                         │
+├──────────────────────────────────────────────────────────────────────┤
+│  SOURCE  →  D:/CODING/New Projects/9_backupSync/v7/A                 │
+│  DEST    →  D:/CODING/New Projects/9_backupSync/v7/B                 │
+└──────────────────────────────────────────────────────────────────────┘
+  14:08:21  INFO      Files evaluated                             scanning...
+  14:08:21  INFO      Files evaluated                             1 files  |  first_run=True
+  14:08:21  INFO      CREATE    ew.txt                                      A → B
+  14:08:21  DEBUG     State saved to sync_state_Projects.json
+  ──────────────────────────────────────────────────────────────────────
+  RESULT        Created=1  Updated=0  Deleted=0  Conflicts=0  Skipped=0  Errors=0
+  ELAPSED       0.005s
+  ──────────────────────────────────────────────────────────────────────
+
+  14:08:21  INFO      ──────────────────────────────────────────────────
+  14:08:21  INFO      Pair: Pair2  |  D:/CODING/New Projects/9_backupSync/v7/C  ↔  D:/CODING/New Projects/9_backupSync/v7/D
