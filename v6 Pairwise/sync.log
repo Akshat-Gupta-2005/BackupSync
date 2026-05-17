@@ -1,0 +1,78 @@
+  13:59:23  INFO      ──────────────────────────────────────────────────
+  13:59:23  INFO      Pair: Projects  |  D:/CODING/New Projects/9_backupSync/v6/A  ↔  D:/CODING/New Projects/9_backupSync/v6/B
+  13:59:23  ERROR     Folder A does not exist: D:/CODING/New Projects/9_backupSync/v6/A
+  13:59:55  INFO      ──────────────────────────────────────────────────
+  13:59:55  INFO      Pair: Projects  |  D:/CODING/New Projects/9_backupSync/v6/A  ↔  D:/CODING/New Projects/9_backupSync/v6/B
+  13:59:55  ERROR     Folder A does not exist: D:/CODING/New Projects/9_backupSync/v6/A
+  14:00:41  INFO      ──────────────────────────────────────────────────
+  14:00:41  INFO      Pair: Projects  |  D:/CODING/New Projects/9_backupSync/v6 Pairwise/A  ↔  D:/CODING/New Projects/9_backupSync/v6 Pairwise/B
+
+┌──────────────────────────────────────────────────────────────────────┐
+│  FOLDERSYNC SESSION  ·  2026-05-17  14:00:41                         │
+├──────────────────────────────────────────────────────────────────────┤
+│  A  →  D:/CODING/New Projects/9_backupSync/v6 Pairwise/A             │
+│  B  →  D:/CODING/New Projects/9_backupSync/v6 Pairwise/B             │
+└──────────────────────────────────────────────────────────────────────┘
+  14:00:41  INFO      Files evaluated                             scanning...
+  14:00:41  INFO      Files evaluated                             1 files  |  first_run=True
+  14:00:41  INFO      CREATE    file A.txt                                  A → B
+  14:00:41  DEBUG     State saved to sync_state_Projects.json
+  ──────────────────────────────────────────────────────────────────────
+  RESULT        Created=1  Updated=0  Deleted=0  Conflicts=0  Skipped=0  Errors=0
+  ELAPSED       0.008s
+  ──────────────────────────────────────────────────────────────────────
+
+  14:00:41  INFO      ──────────────────────────────────────────────────
+  14:00:41  INFO      Pair: Pair2  |  D:/CODING/New Projects/9_backupSync/v6 Pairwise/C  ↔  D:/CODING/New Projects/9_backupSync/v6 Pairwise/D
+
+┌──────────────────────────────────────────────────────────────────────┐
+│  FOLDERSYNC SESSION  ·  2026-05-17  14:00:41                         │
+├──────────────────────────────────────────────────────────────────────┤
+│  A  →  D:/CODING/New Projects/9_backupSync/v6 Pairwise/C             │
+│  B  →  D:/CODING/New Projects/9_backupSync/v6 Pairwise/D             │
+└──────────────────────────────────────────────────────────────────────┘
+  14:00:41  INFO      Files evaluated                             scanning...
+  14:00:41  INFO      Files evaluated                             1 files  |  first_run=True
+  14:00:41  INFO      CREATE    New Text Document.txt                       A → B
+  14:00:41  DEBUG     State saved to sync_state_Pair2.json
+  ──────────────────────────────────────────────────────────────────────
+  RESULT        Created=1  Updated=0  Deleted=0  Conflicts=0  Skipped=0  Errors=0
+  ELAPSED       0.005s
+  ──────────────────────────────────────────────────────────────────────
+
+  14:01:01  INFO      ──────────────────────────────────────────────────
+  14:01:01  INFO      Pair: Projects  |  D:/CODING/New Projects/9_backupSync/v6 Pairwise/A  ↔  D:/CODING/New Projects/9_backupSync/v6 Pairwise/B
+
+┌──────────────────────────────────────────────────────────────────────┐
+│  FOLDERSYNC SESSION  ·  2026-05-17  14:01:01                         │
+├──────────────────────────────────────────────────────────────────────┤
+│  A  →  D:/CODING/New Projects/9_backupSync/v6 Pairwise/A             │
+│  B  →  D:/CODING/New Projects/9_backupSync/v6 Pairwise/B             │
+└──────────────────────────────────────────────────────────────────────┘
+  14:01:01  INFO      Files evaluated                             scanning...
+  14:01:01  INFO      Files evaluated                             1 files  |  first_run=False
+  14:01:01  INFO      UPDATE    file A.txt                                  B → A
+  14:01:01  DEBUG     State saved to sync_state_Projects.json
+  ──────────────────────────────────────────────────────────────────────
+  RESULT        Created=0  Updated=1  Deleted=0  Conflicts=0  Skipped=0  Errors=0
+  ELAPSED       0.016s
+  ──────────────────────────────────────────────────────────────────────
+
+  14:01:01  INFO      ──────────────────────────────────────────────────
+  14:01:01  INFO      Pair: Pair2  |  D:/CODING/New Projects/9_backupSync/v6 Pairwise/C  ↔  D:/CODING/New Projects/9_backupSync/v6 Pairwise/D
+
+┌──────────────────────────────────────────────────────────────────────┐
+│  FOLDERSYNC SESSION  ·  2026-05-17  14:01:01                         │
+├──────────────────────────────────────────────────────────────────────┤
+│  A  →  D:/CODING/New Projects/9_backupSync/v6 Pairwise/C             │
+│  B  →  D:/CODING/New Projects/9_backupSync/v6 Pairwise/D             │
+└──────────────────────────────────────────────────────────────────────┘
+  14:01:01  INFO      Files evaluated                             scanning...
+  14:01:01  INFO      Files evaluated                             1 files  |  first_run=False
+  14:01:01  DEBUG     SKIP      New Text Document.txt                       identical
+  14:01:01  DEBUG     State saved to sync_state_Pair2.json
+  ──────────────────────────────────────────────────────────────────────
+  RESULT        Created=0  Updated=0  Deleted=0  Conflicts=0  Skipped=1  Errors=0
+  ELAPSED       0.020s
+  ──────────────────────────────────────────────────────────────────────
+

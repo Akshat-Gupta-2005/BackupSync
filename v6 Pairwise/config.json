@@ -2,18 +2,13 @@
   "pairs": [
     {
       "name": "Projects",
-      "source": "D:/CODING/New Projects/9_backupSync/v2/folderA",
-      "destination": "D:/CODING/New Projects/9_backupSync/v2/folderB"
+      "source": "D:/CODING/New Projects/9_backupSync/v6 Pairwise/A",
+      "destination": "D:/CODING/New Projects/9_backupSync/v6 Pairwise/B"
     },
     {
       "name": "Pair2",
-      "source": "D:/path/to/source2",
-      "destination": "D:/path/to/destination2"
-    },
-    {
-      "name": "Pair3",
-      "source": "D:/path/to/source3",
-      "destination": "D:/path/to/destination3"
+      "source": "D:/CODING/New Projects/9_backupSync/v6 Pairwise/C",
+      "destination": "D:/CODING/New Projects/9_backupSync/v6 Pairwise/D"
     }
   ]
 }
