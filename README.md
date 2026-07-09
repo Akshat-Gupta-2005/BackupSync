@@ -1,4 +1,4 @@
-# FolderSync v9
+# BackupSync v9
 
 > Lightweight two-way folder synchronization in pure Python — no dependencies required.
 
