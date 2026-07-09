@@ -26,8 +26,8 @@ FolderSync keeps two folders in perfect sync across local drives, external disks
 
 **1. Clone the repo**
 ```bash
-git clone https://github.com/your-username/filesync.git
-cd filesync
+git clone https://github.com/Akshat-Gupta-2005/BackupSync
+cd v9
 ```
 
 **2. Set your folder pairs in `config.json`**
