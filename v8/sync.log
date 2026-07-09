@@ -1,0 +1,32 @@
+
+┌──────────────────────────────────────────────────────────────────────┐
+│  FOLDERSYNC SESSION  ·  2026-05-19  13:19:27                         │
+├──────────────────────────────────────────────────────────────────────┤
+│  SOURCE  →  D:/CODING/New Projects/9_backupSync/v8/A                 │
+│  DEST    →  D:/CODING/New Projects/9_backupSync/v8/B                 │
+└──────────────────────────────────────────────────────────────────────┘
+  13:19:27  INFO      Files evaluated                             scanning...
+  13:19:27  INFO      Files evaluated                             1 files  |  first_run=True
+  13:19:27  INFO      CREATE    Screenshot (4).png                          A → B
+  13:19:27  DEBUG     State saved to sync_state_Projects.json
+  ──────────────────────────────────────────────────────────────────────
+  RESULT        Created=1  Updated=0  Deleted=0  Conflicts=0  Skipped=0  Errors=0
+  ELAPSED       0.009s
+  ──────────────────────────────────────────────────────────────────────
+
+
+┌──────────────────────────────────────────────────────────────────────┐
+│  FOLDERSYNC SESSION  ·  2026-05-19  13:21:35                         │
+├──────────────────────────────────────────────────────────────────────┤
+│  SOURCE  →  D:/CODING/New Projects/9_backupSync/v8/A                 │
+│  DEST    →  D:/CODING/New Projects/9_backupSync/v8/B                 │
+└──────────────────────────────────────────────────────────────────────┘
+  13:21:35  INFO      Files evaluated                             scanning...
+  13:21:35  INFO      Files evaluated                             1 files  |  first_run=False
+  13:21:35  INFO      UPDATE    Screenshot (4).png                          A → B
+  13:21:35  DEBUG     State saved to sync_state_Projects.json
+  ──────────────────────────────────────────────────────────────────────
+  RESULT        Created=0  Updated=1  Deleted=0  Conflicts=0  Skipped=0  Errors=0
+  ELAPSED       0.007s
+  ──────────────────────────────────────────────────────────────────────
+

@@ -1,4 +1,5 @@
 {
+  "mtime_tolerance": 60,
   "pairs": [
     {
       "name": "Projects",
